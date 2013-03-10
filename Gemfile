@@ -19,6 +19,7 @@ gem 'simple_form'
 gem 'country_select'
 gem 'paperclip'
 gem 'ckeditor'
+gem 'protected_attributes'
 
 group :assets do
   gem 'sass-rails',   '~> 4.0.0.beta1'
