@@ -17,6 +17,7 @@ gem 'cancan'
 gem 'certified'
 gem 'simple_form'
 gem 'country_select'
+gem 'paperclip'
 
 group :assets do
   gem 'sass-rails',   '~> 4.0.0.beta1'
@@ -39,9 +40,8 @@ end
 
 group :test do
   gem 'shoulda-matchers'
-  gem 'factory_girl_rails', '3.3.0'
+  gem 'factory_girl_rails'
   gem 'capybara'
   gem 'launchy'
   gem 'database_cleaner'
-  gem 'simplecov', require: false
 end
