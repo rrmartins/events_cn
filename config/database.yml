@@ -1,0 +1,13 @@
+commom: &commom
+  adapter: postgresql
+  encoding: utf8
+  username: postgres
+  host: localhost
+
+development:
+  <<: *commom
+  database: events_vn_development
+
+test:
+  <<: *commom
+  database: events_vn_test
